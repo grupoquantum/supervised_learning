@@ -98,7 +98,7 @@ chart.plotBAR(x=x, y=y, x_label='Acertos VS Erros', y_label='Percentual %', titl
   </code>
 </pre>
 Resultado:
-<div align="center"><img src="https://github.com/aiquantumneuro/supervised_learning/blob/main/grafico.jpg"></div>
+<div align="center"><img src="https://github.com/grupoquantum/supervised_learning/blob/main/grafico.jpg"></div>
 <br>
 <sup>Acima temos o código do notebook em anexo onde aplicamos um algoritmo de Aprendizado Supervisionado (Supervised Learning) na previsão de sobrevivência em passageiros do naufrágio do Titanic. No aprendizado Supervisionado sempre teremos exemplos de saída para cada uma das entradas. Neste caso os nossos dados de saída/resposta estão contidos na coluna de nome “Survived” onde nas demais colunas estão contidos os dados de entrada. Uma observação importante é que com o Neuraline não há a necessidade de limpar ou padronizar os dados já que a própria biblioteca se encarrega disso nesse tipo de algoritmo. O KNN do Neuraline consegue aplicar o cálculo de distância euclidiana mesmo em dados no formato texto e em células vazias.</sup>
 </div>
